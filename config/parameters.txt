@@ -1,0 +1,22 @@
+# Standalone finite-difference solution. Scalar values only.
+# Names match combined_parameters.txt; omitted settings retain program defaults.
+
+# Physical parameters.
+T = 1.5
+m0 = 0.3
+asymmetry = 0.0
+j0 = 1.0
+j1 = 1.0
+
+# Duration and field boundaries.
+t_end = 100.01
+hmin = -8.0
+hmax = 8.0
+
+# Finite-difference numerical controls.
+fd_cells = 128
+fd_gaussian_order = 64
+
+# Output parent directory must already exist; timestamp added automatically.
+output_dir = Output
+output_prefix = trajectory

@@ -1,0 +1,16 @@
+# Local Python, test and notebook caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Personal Git instructions: keep on this machine.
+/LOCAL_GIT_GUIDE.md
+
+# Generated runs and plots stay local, apart from selected documentation assets.
+/Output/*
+!/Output/sk_rs_phase_boundaries.csv
+/figures/*
+!/figures/sk_rs_phase_diagram.png
+!/figures/examples/

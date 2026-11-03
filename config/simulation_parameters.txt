@@ -1,0 +1,26 @@
+# Standalone spin simulations. Scalar values only.
+# Names match combined_parameters.txt; omitted settings retain program defaults.
+
+# Physical parameters.
+T = 0.01
+m0 = 0.3
+asymmetry = 0.0
+j0 = 0.0
+j1 = 1.0
+
+# Duration and field boundaries.
+t_end = 30.01
+hmin = -6.0
+hmax = 6.0
+
+# Simulation numerical controls.
+n_spins = 10000
+n_runs = 20
+seed = 0
+record_interval = 0.025
+distribution_interval = 2.0
+simulation_cells = 120
+
+# Output parent directory must already exist; timestamp added automatically.
+output_dir = Output
+output_prefix = simulation

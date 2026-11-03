@@ -1,0 +1,2 @@
+# Optional Git notebook filter; install into the Spinglass Conda environment.
+nbstripout==0.9.1
