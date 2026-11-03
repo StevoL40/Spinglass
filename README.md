@@ -38,8 +38,9 @@ They use 128 field cells on [-10, 10], Gauss–Hermite order 64,
 maximum time step 0.002 and saddle tolerance $2.5\times10^{-5}$.
 The figures were produced with `compare_trajectories.ipynb`; their
 [provenance](figures/examples/provenance.json) records the source archives and
-settings. Full generated run archives remain local. Reference PDFs, including
-[the thesis](docs/SL_DPhil_Thesis_1995.pdf), are in `docs/`.
+settings. Full generated run archives remain local. The
+[thesis](docs/SL_DPhil_Thesis_1995.pdf) is included in `docs/`; other papers are
+listed with publisher or preprint links in the [references](docs/REFERENCES.md).
 
 ## The SK model, replicas and the implemented dynamics
 
@@ -439,7 +440,8 @@ output formats.
 Run commands and notebooks from the project root. Application Python files are
 in `python/`, the three editable run-parameter files are in `config/`, and
 the original C programs are in `C/`. Tests and their regression fixtures remain
-in `tests/`; reference documents remain in `docs/`. The notebooks stay at the
+in `tests/`; the thesis and reference list are in `docs/`. Other reference PDFs
+may be kept there locally and are excluded from version control. The notebooks stay at the
 root and add `python/` to their import path in the first code cell.
 After this directory reorganisation, restart any existing notebook kernel and
 rerun its cells from the top so it uses the relocated modules and config paths.

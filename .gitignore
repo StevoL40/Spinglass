@@ -9,6 +9,10 @@ __pycache__/
 /LOCAL_GIT_GUIDE.md
 /AGENTS.md
 
+# Reference papers remain local; the author's thesis is distributed here.
+/docs/*.pdf
+!/docs/SL_DPhil_Thesis_1995.pdf
+
 # Generated runs and plots stay local, apart from selected documentation assets.
 /Output/*
 !/Output/sk_rs_phase_boundaries.csv
