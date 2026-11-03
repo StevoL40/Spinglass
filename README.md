@@ -8,6 +8,17 @@ A separate direct spin simulator reconstructed from `sk.c` and `ask.c` is also
 available: see [Direct spin simulation](#direct-spin-simulation-the-original-skc-and-askc-models).
 It shares the parameter-file and timestamped-output approach and the inspection notebook.
 
+## Copyright and permissions
+
+All rights reserved by the respective copyright holders. This repository is
+published **without a licence**. No additional permission to reuse, modify or
+redistribute its code, text or figures is granted.
+
+This notice does not restrict rights provided by applicable law or the
+[GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service),
+including viewing and forking public repositories on GitHub. Linked publications
+remain subject to their own copyright and terms.
+
 ## Sample outputs
 
 These examples compare the RS spin-field diffusion (orange dashed) with 25
