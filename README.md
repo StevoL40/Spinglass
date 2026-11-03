@@ -51,11 +51,7 @@ infinite-range random interactions. For symmetric couplings and zero external
 field,
 
 ```math
-\begin{aligned}
-\mathcal{H}(\boldsymbol{\sigma})&=-\sum_{i<j}J_{ij}\sigma_i\sigma_j,\\
-J_{ij}=J_{ji}&=\frac{J_0}{N}+\frac{J_1}{\sqrt{N}}z_{ij},\\
-\sigma_i&=\pm1,\qquad z_{ij}\sim\mathcal{N}(0,1).
-\end{aligned}
+\mathcal{H}(\boldsymbol{\sigma})=-\sum_{i \lt j}J_{ij}\sigma_i\sigma_j,\qquad J_{ij}=J_{ji}=\frac{J_0}{N}+\frac{J_1}{\sqrt{N}}z_{ij},\qquad \sigma_i=\pm1,\quad z_{ij}\sim\mathcal{N}(0,1).
 ```
 
 Independent z values are drawn for unordered pairs; there is no self-interaction.
