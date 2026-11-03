@@ -5,8 +5,9 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 
-# Personal Git instructions: keep on this machine.
+# Personal guidance: keep on this machine.
 /LOCAL_GIT_GUIDE.md
+/AGENTS.md
 
 # Generated runs and plots stay local, apart from selected documentation assets.
 /Output/*
