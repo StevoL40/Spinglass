@@ -8,6 +8,7 @@ __pycache__/
 # Personal guidance: keep on this machine.
 /LOCAL_GIT_GUIDE.md
 /AGENTS.md
+/.local-backups/
 
 # Reference papers remain local; the author's thesis is distributed here.
 /docs/*.pdf
