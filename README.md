@@ -147,7 +147,7 @@ showed that RS loses stability to overlap fluctuations (the replicon mode).
 With $u=\beta(J_0m+J_1\sqrt q\,z)$, the stability condition is
 
 $$
-\lambda_{\rm AT}=1-(\beta J_1)^2\int Dz\,\operatorname{sech}^4u\geq0.
+\lambda_{\rm AT}=1-(\beta J_1)^2\int Dz\,\frac{1}{\cosh^4 u}\geq0.
 $$
 
 Its zero defines the AT boundary; a negative value means the RS saddle is
@@ -340,8 +340,8 @@ Here q, R0 and R1 belong to the instantaneous RS saddle (6.15), with
 $R_0=\texttt{theta0}$ and $R_1=\texttt{theta1}$ in Python. The symbols
 $\ell_0,\ell_1$ denote the thesis's $\lambda_0^2,\lambda_1^2$;
 $\ell_0$ is an algebraic coefficient and can be negative, not a variance.
-This representation requires q<1. At T=0, use $\tau(H)=\operatorname{sgn}H$,
-with $\operatorname{sgn}0=0$.
+This representation requires q<1. At T=0, use $\tau(H)=\mathrm{sgn}(H)$,
+with $\mathrm{sgn}(0)=0$.
 
 At fixed independent standard Gaussian variables w,y, let $\langle f\rangle_M$ denote
 the normalized spin-field average under the RS measure M of (6.15):
